@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <div id="inventory">
+        <div id="inv-dropdown">Inventory</div>
+        <div id="inventory-content">
+            <span id="sell-type-grid">
+                <span class="sell-methods" onclick="changeQuantity(1)">x1</span>
+                <span class="sell-methods" onclick="changeQuantity(2)">x10</span>
+                <span class="sell-methods" onclick="changeQuantity(3)">x100</span>
+                <span class="sell-methods" onclick="changeQuantity(4)">max</span>
+            </span>
+            <span id="auto-type-grid">
+                <span onclick="changeMethod(1)">none</span>
+                <span onclick="changeMethod(2)">auto-sell</span>
+                <span onclick="changeMethod(3)">auto-equip</span>
+            </span>
+            <div id="inv-cont-disp">
+                <p id="empty-text">INFORMATION</p>
+                <div id="inv-cd-title">
+                    <div id="icd-text-name">name</div>
+                    <div id="icd-text-rariety">rariety</div>
+                </div>
+                <div id="icd-info-div">
+                    <div id="icd-sell-each">sell-each</div><br>
+                    <div id="icd-sell-total">sell-total</div>
+                    <div id="icd-sell-calc1">(sell-calc1)</div><br>
+                    <div id="icd-sell-esti">sell-esti</div>
+                    <div id="icd-sell-calc2">(sell-calc2)</div>
+                </div>
+                <div id="icd-btn-div">
+                    <button id="sell-btn">Sell</button>
+                    <button id="equip-btn">Equip</button>
+                </div>
+            </div>
+
+            <div id="inv-scroll">
+                <div id="inv-display"></div>
+                <div id="s-w-inv-display">
+                    <p class="inventory-block"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="center">
+        <svg width="400" height="70">
+            <text id="center-name" x="50%" y="50%" fill="url(#main)" dominant-baseline="middle" text-anchor="middle" stroke="hsl(1, 30%, 50%)" stroke-width="2px" paint-order="stroke fill" stroke-linejoin="round">name</text>
+            <defs>
+                <linearGradient id="main" x1="0%" y1="100%" x2="0%" y2="0%">                    
+                    <stop offset="0%" stop-color="hsl(8, 40%, 50%)"/>
+                    <stop offset="100%" stop-color="hsl(28, 40%, 90%)"/>
+                </linearGradient>
+            </defs>
+        </svg>
+        <div id="center-rariety">1 em x</div>
+        <button id="roll">RET</button><br><br>
+    </div>
+    <div id="audio-list"></div>
+    
+    <button id="roll">ROLL - <span id="money">0</span></button>
+    <script src="script.js"></script>
+</body>
+</html>
