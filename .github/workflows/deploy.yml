@@ -14,24 +14,25 @@ permissions:
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-  jobs:
-    deploy:
-      nmae: Deploy & Github pages
-      runs-on: ubuntu-latest
-      if: github.ref == 'refs/heads/main'
-      outputs:
-        pages_url: ${{ steps.deployment.output.page_url }}
 
-    evniroment:
-      name: github_pages
+jobs:
+  deploy:
+    name: Deploy & Github pages
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+
+    environment:
+      name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Checkout code
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Setup pages
-      - uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v4
 
       - name: Upload artifact
-      - uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3
