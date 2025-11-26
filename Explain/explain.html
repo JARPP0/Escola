@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body>
+    <h1>Página de explicação do jogo <button id="playbtn" onclick="iniciate()">Jogar</button></h1>
+    <p>
+        <span>Nomes</span>
+        <br><br>
+
+        O jogo é um estilo RNG (random number generator) inspirado principalmente no jogo Sol's RNG,
+        é um tipo de jogo que se baseia em sorte principalmente, ao pressionar o botão de rolar no
+        centro da tela, você pode ganhar até 100 Nomes no jogo, baseado em seu valor de raridade,
+        um exemplo, você pressiona o botão e tem 1 em 2 de chance de ganhar o Fulano, ou até 1 em
+        30000 de ganhar o Citrano. Certos Nome se estendem de um nome já existente no jogo, com
+        um sorte múltipla da original, como: "Fulano : caçador de porcos | 1 em 20" chamados de
+        mutação quando contém os dois pontos. O jogo possui sistema de bioma, ao decorrer do
+        tempo o seu bioma pode trocar, certos Nomes podem se tornar mais comumns em biomas
+        específicos com uma nova valor de raridade reduzido, chamados de breakthrough,
+        e outros passam a sequer ser possível de se coletar em um bioma, que não podem ser coletados
+        fora de um bioma, chamados de especiais.
+
+        <img width="160" style="float: right" src="../Images/Captura de tela 2025-11-23 124513.png" alt="">
+        <br><br>
+        <span>Inventário</span>
+        <br><br>
+        Ao rolar o nome, ele vai direto para seu inventário, acessando ele você tem a opção de vender
+        ou equipar um Nome, vendendo você ganha uma quantia de dinheiro baseado na raridade do Nome,
+        equipando-o, ele pode te dar até 3 tipos de boost, sorte, velocidade e fortuna, sorte te dá
+        mais sorte na hora de rolar os Nomes, velocidade reduz o tempo para você rolar outro Nome
+        novamente, e fortuna é uma sorte que acontecem a cada 10 rolagens, só que gera mais sorte
+        do que o de um boost de sorte qualquer apesar de ser menos presente
+        <br><br>
+        <span>Coleção</span>
+        <br><br>
+        Ao rolar o Nome, ele vai para a coleção, a coleção de todos os nomes que já coletou, ali
+        você pode visualizar cada Nome e suas informações sobre, abaixo:
+
+        <img src="../Images/Captura de tela 2025-11-23 144919.png" alt="">
+        <br><br>
+        coluna 1 |
+        breakthrough: pode ser (normal, breakthrough ou special) o tipo de Nome descritos acima  <br>
+        x6: quantia atual no inventário, xX6: quantos deste Nome já foram foi coletados <br>
+        circumferências: interna se colore se a versão mais rara do Nome for coletada <br>
+        externa se colore se a versão menos rar do Nome for coletada <br>
+        boost [5.94] speed: cita o tipo de boost, e o quanto do boost <br>
+        <br><br>
+        coluna 2 |
+        variações da mesma família do Jorgeto para clicar e visualizar caso liberado
+        <br><br>
+        coluna 3 |
+        1 in 9999999999: raridade fora do bioma principal <br>
+        1 in 3333333333: raridade dentro do bioma principal <br>
+        best biome 4: melhor bioma de se coletar, aparece 'exclusive biome' para do tipo especial <br>
+        cada 1548357R$: preço vendendo cada um <br>
+        total 9290142R$: preço vendendo todos do inventário atual <br>
+        <br><br>
+        <span>Nível</span>
+        <br><br>
+        Com a certa quantia de rolagens, você pode subir seu nível, que gera mais sorte
+    </p>
+    <footer>© 2025 Marcos Vinícius. Todos os direitos reservados. | Contato: marcosvinicius36297313@gmail.com</footer>
+    <script src="script.js"></script>
+    </body>
+</html>

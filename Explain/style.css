@@ -1,0 +1,55 @@
+:root{
+    --hueShift: 60deg;
+    --color1: rgb(245, 211, 255);
+    --color2: rgb(255, 245, 169);
+}
+body{
+    background: linear-gradient(20deg, hsl(212, 43%, 18%), hsl(180, 43%, 25%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    backdrop-filter: hue-rotate(var(--hueShift)) saturate(300%);
+}
+h1{
+    font-size: 0.95em;
+    padding: 20px 30px;
+    backdrop-filter: hue-rotate(-20deg) saturate(250%) brightness(300%);
+    background: linear-gradient(90deg, rgba(255, 119, 119, 0.302), rgba(238, 255, 0, 0.33));
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.105);
+    margin-top: 0px;
+}
+p{
+    transform: scale(0.95);
+}
+span{
+    background-clip: text;
+    background-image: linear-gradient(0deg, var(--color1), var(--color2));
+    color: transparent;
+}
+img{
+    margin: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.253);
+    box-shadow: 0 0 0 1px white;
+}
+#playbtn{
+    background-color: aliceblue;
+    border: none;
+    float: right;
+    height: 50px;
+    transform: translateY(-16px);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    &:hover{
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+}
+footer{
+    background-color: rgba(255, 255, 255, 0.14);
+}
