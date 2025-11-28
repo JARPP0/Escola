@@ -31,5 +31,5 @@ tl.to(`:root`, {
 })
 
 function iniciate(){
-    window.location.href = `../game/index.html`
+    window.location.href = `../game/game.html`
 }
