@@ -44,7 +44,7 @@ fieldset{
     border:  2px solid rgba(255, 199, 146, 0.483);
     & *{
         position: relative;
-        left: 15px;
+        left: 15.01px;
     }
 }
 #error{
