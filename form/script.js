@@ -22,6 +22,6 @@ document.querySelector(`form`).addEventListener("submit", (e) => {
     else if(!verifyEmail.test(email)) error("Email inválido")
     else if(pass !== conf) error("Senhas não coincidem")
     else{
-        window.location.href = `../Explain/explain.html`
+        window.location.href = `/Explain/explain.html`
     }
 });
