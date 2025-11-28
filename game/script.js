@@ -334,10 +334,10 @@ class Pessoa {
 // [Sala(0), Pátio(1), Refeitório(2), Quadra(3), Jardim(4), Coworking(5), PjMacumba(6), XiqueXiqueBahia(7), Inepresente(8), cosmos(9)
 let Rodobelo = new Pessoa(`Rodobelo`, [1, 2, 30], `Gato mascote da escola`)
     let Rodobelo1 = new Pessoa(`Rodobelo`, [4, 2468, 24680], `Dono de uma tribo indígena`, `(Líder Catciquista)`, undefined, [["rgba(255, 180, 153, 1)", "rgba(210, 125, 86, 1)"], "rgba(132, 101, 92, 1)", '4px'])
-    let Rodobelo2 = new Pessoa(`Rodobelo`, [9, 144012000, 1],  `A ..Mística--- .-.Haverá-.- ...Veles--`, `M.E. potency O.W.`, ["The Cat Evolved Into The Microwave Proof Cat! - Camellia", "../Audios/TheCatEvolvedIntoTheMicrowave-proofCat!.mp3"], [["rgba(191, 102, 255, 1)", "rgba(196, 110, 164, 1)"], "rgba(140, 109, 141, 0)", '0px', "[250, 280, 230, 250]-200-.5"]) // 9 / bioma 9 / 9 planetas /- imperador do sistema solar, busca deuses nos planetas(relação de deuses e planetas) // 144.012.000 - 12 signos / 144 = 12**2 = 100 + 44 = /Julio César(100a.C. - 44a.C.) // A Mística(rodobelo) Haverá(caçar) Veles(deus dos peixes[signo / comida de gato(rodobelo)]) A M H V - deslocamento 12(signo) cifra de césar(júlio césar / líder, similar á gata) = Myth(deuses / mythologic) // MEOW potency / Monarcy Extradimensional Omnipotent Whiskers(bigode de gato) / ..--- .-.-.- ...- = 2.3 = :3(gato) // the cat evolved to a microwave-proof cat
+    let Rodobelo2 = new Pessoa(`Rodobelo`, [9, 144012000, 1],  `A ..Mística--- .-.Haverá-.- ...Veles--`, `M.E. potency O.W.`, ["The Cat Evolved Into The Microwave Proof Cat! - Camellia", "/CONTENT/FS-12/Audios/TheCatEvolvedIntoTheMicrowave-proofCat!.mp3"], [["rgba(191, 102, 255, 1)", "rgba(196, 110, 164, 1)"], "rgba(140, 109, 141, 0)", '0px', "[250, 280, 230, 250]-200-.5"]) // 9 / bioma 9 / 9 planetas /- imperador do sistema solar, busca deuses nos planetas(relação de deuses e planetas) // 144.012.000 - 12 signos / 144 = 12**2 = 100 + 44 = /Julio César(100a.C. - 44a.C.) // A Mística(rodobelo) Haverá(caçar) Veles(deus dos peixes[signo / comida de gato(rodobelo)]) A M H V - deslocamento 12(signo) cifra de césar(júlio césar / líder, similar á gata) = Myth(deuses / mythologic) // MEOW potency / Monarcy Extradimensional Omnipotent Whiskers(bigode de gato) / ..--- .-.-.- ...- = 2.3 = :3(gato) // the cat evolved to a microwave-proof cat
 
 let Marcella = new Pessoa(`Marcella`, 3, `Mina da sala que gosta de ler`)
-    let Marcella1 = new Pessoa(`Marcella`, 130500, `Uma raposa sombria selada numa biblioteca infinita`, `Babel`, ["Freedom Dive - xi", "../Audios/FreedomDive.mp3"], [["rgb(255, 255, 255)", "rgba(0, 187, 255, 1)"], "rgba(204, 255, 241, 0.71)", '0px', "[130, 180, 130]-140-0.3"]) // freedom dive
+    let Marcella1 = new Pessoa(`Marcella`, 130500, `Uma raposa sombria selada numa biblioteca infinita`, `Babel`, ["Freedom Dive - xi", "/CONTENT/FS-12/Audios/FreedomDive.mp3"], [["rgb(255, 255, 255)", "rgba(0, 187, 255, 1)"], "rgba(204, 255, 241, 0.71)", '0px', "[130, 180, 130]-140-0.3"]) // freedom dive
 
 let Bia = new Pessoa(`Bia`, 4, `'Sobrecarga de Mídias'`)
     let Bia1 = new Pessoa(`Bia`, 144, `A única que perdi, foi para doar dindin`, `Rica de truco`)
@@ -345,7 +345,7 @@ let Bia = new Pessoa(`Bia`, 4, `'Sobrecarga de Mídias'`)
 let Paulo = new Pessoa(`Paulo`, [2, 5, 70], `Metade humano, metade rato`)
     let Paulo1 = new Pessoa(`Paulo`, [7, 700, 7000], `Trabaia nas ruas, na vivência do salário mínimo`, `Gari`)
     let Paulo2 = new Pessoa(`Paulo`, [4, 2000, 1], `Um cristal que Paulo jones procurava`, `Chesse Gem`, undefined, [["rgb(255, 136, 72)", "rgba(255, 255, 0, 1)"], "rgba(245, 91, 20, 1)"])
-    let Paulo3 = new Pessoa(`Paulo`, 555000, `Mim deixo ver se eu entendi, sua cantoria atrai mulheres para seu exército? EXATAMENTE`, `Gostosão`, ["Já que me ensinou a beber - Os barões da pisadinha", "../Audios/JáQueMeEnsinouABeber.mp3"], [["rgba(255, 168, 92, 1)", "rgba(255, 153, 153, 1)", "rgba(255, 194, 254, 1)"], "rgba(42, 92, 157, 1)", "5px", "[380, 150, 380, 380]-150-1"]) // já que me ensinou a beber
+    let Paulo3 = new Pessoa(`Paulo`, 555000, `Mim deixo ver se eu entendi, sua cantoria atrai mulheres para seu exército? EXATAMENTE`, `Gostosão`, ["Já que me ensinou a beber - Os barões da pisadinha", "/CONTENT/FS-12/Audios/JáQueMeEnsinouABeber.mp3"], [["rgba(255, 168, 92, 1)", "rgba(255, 153, 153, 1)", "rgba(255, 194, 254, 1)"], "rgba(42, 92, 157, 1)", "5px", "[380, 150, 380, 380]-150-1"]) // já que me ensinou a beber
 
 let Arthur = new Pessoa(`Arthur`, 8, `Obsessão por Cartas`)
     let Arthur1 = new Pessoa(`Arthur`, 80, `I-Armadura, PROVIDENCIADO DE (garrafa de metal)`, `MetalBat-I`)
@@ -354,10 +354,10 @@ let Arthur = new Pessoa(`Arthur`, 8, `Obsessão por Cartas`)
 
 let Pedro = new Pessoa(`Pedro`, [5, 10, 150], `Pleno, Pequeno, Não ocupa terreno, e fala: posto e torto que dá desconforto`)
     let Pedro1 = new Pessoa(`Pedro`, [7, 1010, 1], `E estou virando: O PEDRO HEN-RICO`, `EmpresárioCLT`)
-    let Pedro2 = new Pessoa(`Pedro`, [8, 101010, 1], `'Me dá dinheiro'`, `onu.inss.₱€Đ₹Ø.brl.ibge`,  ["Inking Mistake - NyxTheShield", "../Audios/InkingMistake.mp3"], [["rgb(161, 255, 132)", "rgba(255, 242, 0, 1)", "rgba(250, 255, 173, 1)"], "rgba(86, 121, 83, 1)", '3px', "[100, 40, 100, 40, 100]-500-1"]) // inking mistake
+    let Pedro2 = new Pessoa(`Pedro`, [8, 101010, 1], `'Me dá dinheiro'`, `onu.inss.₱€Đ₹Ø.brl.ibge`,  ["Inking Mistake - NyxTheShield", "/CONTENT/FS-12/Audios/InkingMistake.mp3"], [["rgb(161, 255, 132)", "rgba(255, 242, 0, 1)", "rgba(250, 255, 173, 1)"], "rgba(86, 121, 83, 1)", '3px', "[100, 40, 100, 40, 100]-500-1"]) // inking mistake
 
 let Sabrina = new Pessoa(`Sabrina`, 12, `puro pop`)
-    let Sabrina1 = new Pessoa(`Sabrina`, [8, 150000, 600000], `O olho dela já inventou umas 30 cores`, `Fofíris`, ["magnolia x pimp named slickback [Gyspy Woman & Roblox wave sound effect remix] - Playboi Carti, LAKIM, Gyspy Woman, D4DJ", "../Audios/MxPNSB[GW&RWSER].mp3"], [["rgb(255, 0, 170)", "rgba(255, 0, 106, 1)", "rgba(198, 255, 77, 1)"], "rgba(255, 237, 219, 1)", undefined, "[10, 360, 370, 10]-200-4"]) // magnolia x pimp named slickback (gyspy woman x roblox wave sound)
+    let Sabrina1 = new Pessoa(`Sabrina`, [8, 150000, 600000], `O olho dela já inventou umas 30 cores`, `Fofíris`, ["magnolia x pimp named slickback [Gyspy Woman & Roblox wave sound effect remix] - Playboi Carti, LAKIM, Gyspy Woman, D4DJ", "/CONTENT/FS-12/Audios/MxPNSB[GW&RWSER].mp3"], [["rgb(255, 0, 170)", "rgba(255, 0, 106, 1)", "rgba(198, 255, 77, 1)"], "rgba(255, 237, 219, 1)", undefined, "[10, 360, 370, 10]-200-4"]) // magnolia x pimp named slickback (gyspy woman x roblox wave sound)
 
 let ArthurCorreia = new Pessoa(`ArthurCorreia`, 15, `Rei do gel`)
     let ArthurCorreia1 = new Pessoa(`ArthurCorreia`, 75000, `アーサール POKEMON MASTER コレイア`, `Shuckle`, undefined, [["rgba(255, 0, 0, 1)", "rgba(246, 255, 0, 1)", "rgba(246, 255, 0, 1)"], "rgba(248, 116, 22, 1)", '4px'])
@@ -373,7 +373,7 @@ let Marcos = new Pessoa(`Marcos`, [5, 30, 1500], `olha mãe, eu tou no jogo!`)
 let Yas = new Pessoa(`YAS`, 30, ``)
 
 let Vinicius = new Pessoa(`Vinícius`, [2, 25, 125], `Gosta de Strôgonobòlónofóff`)
-    let Vinicius1 = new Pessoa(`Vinícius`, [4, 386100, 1], `Maldito Talento`, `Gnose`, ["Censored!! - t+pazolite", "../Audios/Censored.mp3"], [["rgba(19, 255, 15, 1)", "rgba(20, 255, 220, 1)", "rgba(255, 56, 195, 1)"], "rgba(95, 92, 255, 1)", undefined, "[90, 160, 300, 90]-400-2"]) // censored!!
+    let Vinicius1 = new Pessoa(`Vinícius`, [4, 386100, 1], `Maldito Talento`, `Gnose`, ["Censored!! - t+pazolite", "/CONTENT/FS-12/Audios/Censored.mp3"], [["rgba(19, 255, 15, 1)", "rgba(20, 255, 220, 1)", "rgba(255, 56, 195, 1)"], "rgba(95, 92, 255, 1)", undefined, "[90, 160, 300, 90]-400-2"]) // censored!!
 
 let Lucas = new Pessoa(`Lucas`, 45, `Assistindo rolar a bola, tomando coca-cola vindo da sacola`)
     let Lucas1 = new Pessoa(`Lucas`, [3, 3600, 10800], `LuCR7 atira no gol, do outro gol`, `CR7`, undefined, [["rgb(26, 132, 49)", "rgba(113, 202, 99, 1)", "rgba(85, 255, 0, 1)"], "rgba(80, 155, 99, 1)", '3px'])
@@ -382,7 +382,7 @@ let Nathan = new Pessoa(`Nathan`, 45, `Ouh, ALEXA, ouh, ouh, ALEXA!`)
     let Nathan1 = new Pessoa(`Nathan`, [3, 5400, 16200], `Jogador Profissa`, `Camisa10`, undefined, [["rgba(26, 132, 90, 1)", "rgba(99, 202, 152, 1)", "rgba(122, 255, 202, 1)"], "rgba(80, 155, 131, 1)", '3px'])
 
 let Pietro = new Pessoa(`Pietro`, 45, `prazer e conhecer, sou pietro, não calma lá: encantado de conocerte, soy Pietro.`)
-    let Pietro1 = new Pessoa(`Pietro`, [6, 202500, 1], `poção: house + pop + dance + dubstep + funk`, `Synthesis`, ["Synthesis - tn.shi", "../Audios/Synthesis.mp3"],  [["rgba(251, 204, 255, 1)", "rgba(173, 20, 255, 1)", "rgba(5, 22, 255, 1)"], "rgba(255, 168, 238, 1)", undefined, "[250, 300, 250, 210, 300, 210, 300, 250]-500-1"]) // synthesis tn-shi
+    let Pietro1 = new Pessoa(`Pietro`, [6, 202500, 1], `poção: house + pop + dance + dubstep + funk`, `Synthesis`, ["Synthesis - tn.shi", "/CONTENT/FS-12/Audios/Synthesis.mp3"],  [["rgba(251, 204, 255, 1)", "rgba(173, 20, 255, 1)", "rgba(5, 22, 255, 1)"], "rgba(255, 168, 238, 1)", undefined, "[250, 300, 250, 210, 300, 210, 300, 250]-500-1"]) // synthesis tn-shi
 
 let Wallison = new Pessoa(`Wallison`, [1, 50, 600], `MMA na escola`)
 
@@ -392,24 +392,24 @@ let Titíco = new Pessoa(`Titíco`, 50, `Risadinha, amigo do Walisson`)
 
 let Alexandre = new Pessoa(`Alexandre`, [1, 55, 1], `Funkeiro redimido`)
     let Alexandre1 = new Pessoa(`Alexandre`, [3, 825, 16500], `Mandando, Devendo, Pão de queijo`, `LÍDER`)
-    let Alexandre2 = new Pessoa(`Alexandre`, [8, 412500, 1237500], `uma sala de aula não basta, eu quero comandar a macedônia`, `O GRANDE`, ["Blue Horizon Funk - NXGHT! & DJ ZAP", "../Audios/BlueHorizonFunk.mp3"], [["rgba(187, 147, 124, 1)", "rgba(252, 185, 141, 1)", "rgba(248, 230, 221, 1)"], "rgba(182, 128, 119, 1)", undefined, "[10, 60, 10]-100-2"]) // horizon blue funk
+    let Alexandre2 = new Pessoa(`Alexandre`, [8, 412500, 1237500], `uma sala de aula não basta, eu quero comandar a macedônia`, `O GRANDE`, ["Blue Horizon Funk - NXGHT! & DJ ZAP", "/CONTENT/FS-12/Audios/BlueHorizonFunk.mp3"], [["rgba(187, 147, 124, 1)", "rgba(252, 185, 141, 1)", "rgba(248, 230, 221, 1)"], "rgba(182, 128, 119, 1)", undefined, "[10, 60, 10]-100-2"]) // horizon blue funk
     
 let Hiarles = new Pessoa(`Hiarles`, [1, 55, 110], `Gordinho tm`)
    let Hiarles1 = new Pessoa(`Hiarles`, [1, 16500, 33000], `sheriff tm`, `COPS`, undefined, [["rgba(97, 97, 98, 1)", "rgba(94, 88, 95, 1)", "rgba(243, 221, 216, 1)"], "rgba(17, 32, 69, 1)", '3px'])
 
 let Carlos = new Pessoa(`Cabeça`, 60, `beijado sem consentimento, suspeita: 'vinícius'`)
-    let Carlos1 = new Pessoa(`Cabeça`, 300000, `facção criminosa em busca da makita`, `Bonde do pneu`, ["Cheiro de somebody that I used to know - Leod", "..]/Audios/CheiroDePneuQueimado.mp3"], [["rgba(255, 216, 117, 1)", "rgba(255, 61, 61, 1)", "rgba(0, 0, 0, 1)"], "rgba(255, 138, 138, 1)", '3px', "[350]-500-2"]) // Pneu queimado
+    let Carlos1 = new Pessoa(`Cabeça`, 300000, `facção criminosa em busca da makita`, `Bonde do pneu`, ["Cheiro de somebody that I used to know - Leod", "/CONTENT/FS-12/Audios/CheiroDePneuQueimado.mp3"], [["rgba(255, 216, 117, 1)", "rgba(255, 61, 61, 1)", "rgba(0, 0, 0, 1)"], "rgba(255, 138, 138, 1)", '3px', "[350]-500-2"]) // Pneu queimado
 
 let Karol = new Pessoa(`Karol`, 62, ``)
 
 let Miguel = new Pessoa(`Miguel`, 65, `se falé baixu`)
-    let Miguel1 = new Pessoa(`Miguel`, 455000, `exército super-militar nível maior que bope`, `Bonde da makita`, ["Os Caras tão na Maldade - Yami", "..]/Audios/OsCarasTãoNaMaldade.mp3"], [["rgba(173, 194, 255, 1)", "rgba(112, 51, 255, 1)"], "rgba(74, 62, 122, 1)", '3px', "[260, 200, 260]-300-2"]) // Os Caras Estão na Maldade
+    let Miguel1 = new Pessoa(`Miguel`, 455000, `exército super-militar nível maior que bope`, `Bonde da makita`, ["Os Caras tão na Maldade - Yami", "/CONTENT/FS-12/Audios/OsCarasTãoNaMaldade.mp3"], [["rgba(173, 194, 255, 1)", "rgba(112, 51, 255, 1)"], "rgba(74, 62, 122, 1)", '3px', "[260, 200, 260]-300-2"]) // Os Caras Estão na Maldade
 
 let Guilherme = new Pessoa(`Guilherme`, 69, `'Arco de vilão da torre de cartas destruída'`)
     let Guilherme1 = new Pessoa(`Guilherme`, 552, `Despertada a sua braveza, pronto para aniquilar`, `NegãoMan`, undefined,  [["rgb(0, 0, 0)", "rgba(10, 7, 5, 1)", "rgba(74, 71, 48, 1)"], "rgba(165, 141, 80, 1)"])
 
 let Davi = new Pessoa(`Davi`, 70, `cuidado que ele vem lutando caipoeira`)
-    let Davi1 = new Pessoa(`Davi`, 700000, `seu poder de fogo supera todas as pontas de todas as tecnologias`, `*tech tech* technoloGuy`, ["Million PP - Camellia", "..]/Audios/MillionPP.mp3"], [["rgba(189, 189, 189, 0.81)", "rgba(226, 225, 226, 0.777)"], "rgba(146, 144, 144, 1)", '3px', "[60, 90, 60]-40-3"]) // million pp
+    let Davi1 = new Pessoa(`Davi`, 700000, `seu poder de fogo supera todas as pontas de todas as tecnologias`, `*tech tech* technoloGuy`, ["Million PP - Camellia", "/CONTENT/FS-12/Audios/MillionPP.mp3"], [["rgba(189, 189, 189, 0.81)", "rgba(226, 225, 226, 0.777)"], "rgba(146, 144, 144, 1)", '3px', "[60, 90, 60]-40-3"]) // million pp
 
 let Bigode = new Pessoa(`Bigode`, [5, 75, 225], `'Reconheço esta curvatura desta pelagem facial de longe'`)
 
@@ -434,14 +434,14 @@ let Yago = new Pessoa(`Yago`, [5, 191, 1], `vítima da sociedade`)
     let Yago2 = new Pessoa(`Yago`, [5, 199921610, 1], ``, `HYPER-MATRIX`, undefined, [["rgb(37, 255, 99)", "rgba(123, 255, 87, 1)", "rgba(92, 247, 255, 1)"], "rgba(83, 213, 159, 1)", '3px', "[90, 160, 90]-150-1"])
 
 let Malu = new Pessoa(`Malu`, 200, `MALU -> UMA L`)
-    let Malu1 = new Pessoa(`Malu`, 200000, `o passado é meu, o presente é do passado`, `Cronista Arcaica`, ["Flash me back - Camellia", "..]/Audios/FlashMeBack.mp3"], [["rgba(253, 255, 209, 1)", "rgba(156, 164, 96, 1)", "rgba(207, 194, 170, 1)"], "rgba(246, 249, 210, 1)", '3px', "[50, 30, 50, 50, 30, 30]-70-.4"]) // flash me back
+    let Malu1 = new Pessoa(`Malu`, 200000, `o passado é meu, o presente é do passado`, `Cronista Arcaica`, ["Flash me back - Camellia", "/CONTENT/FS-12/Audios/FlashMeBack.mp3"], [["rgba(253, 255, 209, 1)", "rgba(156, 164, 96, 1)", "rgba(207, 194, 170, 1)"], "rgba(246, 249, 210, 1)", '3px', "[50, 30, 50, 50, 30, 30]-70-.4"]) // flash me back
 
 let Raquel = new Pessoa(`Raquel`, 250, `Eu Tolero Minúsculo Em Outros Nomes, Mas Quando É No Meu, Eu Te Provo Quão Minúsculo É Você`)
-    let Raquel1 = new Pessoa(`Raquel`, 100000, `"Deixe que eu levo seu português por você, não precisa de sua voz quando quiser gritar por resgate"`, `A Oradora silenciosa`, ["Blue Horizon Funk - NXGHT! & DJ ZAP", "..]/Audios/AmigaDaMinhaMulher.mp3"], [["rgb(141, 86, 54)", "rgba(232, 164, 105, 1)", "rgba(234, 173, 108, 1)"], "rgba(255, 186, 158, 0)", '4px', "[40, 70, 40]-130-2"]) // amiga da minha mulher
+    let Raquel1 = new Pessoa(`Raquel`, 100000, `"Deixe que eu levo seu português por você, não precisa de sua voz quando quiser gritar por resgate"`, `A Oradora silenciosa`, ["Blue Horizon Funk - NXGHT! & DJ ZAP", "/CONTENT/FS-12/Audios/AmigaDaMinhaMulher.mp3"], [["rgb(141, 86, 54)", "rgba(232, 164, 105, 1)", "rgba(234, 173, 108, 1)"], "rgba(255, 186, 158, 0)", '4px', "[40, 70, 40]-130-2"]) // amiga da minha mulher
 
 let Maria = new Pessoa(`Maria`, 400, `Ser de potência subestimada, mas gosta de um chocolate`)
     let Maria1 = new Pessoa(`Maria`, 7600, `CROOCS mortal, seu arremesso exala moral`, `CROOCS`, undefined, [["rgb(255, 221, 157)", "rgba(255, 128, 128, 1)", "rgba(255, 166, 128, 1)"], "rgba(255, 122, 122, 1)", '3px'])
-    let Maria2 = new Pessoa(`Maria`, 1200000, `a loucura pode vir de não saber o que é o que foi`, `Mestra da Ilusão`, ["World's End BLACKBOX - DDDice", "..]/Audios/World'sEndBlackbox.mp3"], [["rgba(255, 0, 0, 0.808)", "rgba(255, 165, 100, 0.777)"], "rgba(255, 247, 189, 1)", '8px', "[360, 360, 400, 360]-240-1"]) //world's end blackbox
+    let Maria2 = new Pessoa(`Maria`, 1200000, `a loucura pode vir de não saber o que é o que foi`, `Mestra da Ilusão`, ["World's End BLACKBOX - DDDice", "/CONTENT/FS-12/Audios/World'sEndBlackbox.mp3"], [["rgba(255, 0, 0, 0.808)", "rgba(255, 165, 100, 0.777)"], "rgba(255, 247, 189, 1)", '8px', "[360, 360, 400, 360]-240-1"]) //world's end blackbox
 
 let Gibres = new Pessoa(`Gibres`, 500, ``, undefined, undefined, [["rgba(8, 0, 255, 1)", "rgba(8, 0, 255, 1)"], "rgba(120, 129, 151, 0.1)", '3px'])
 
@@ -452,10 +452,10 @@ let Maycon = new Pessoa(`Maycon`, 1111, `verbo to be bado`)
     let Maycon1 = new Pessoa(`Maycon`, 83325, `SMT PT — SoMeThing PaTient — tem que saber inglês`, `Poliglota Sombrio`, undefined, [["rgba(255, 211, 211, 1)", "rgba(189, 212, 255, 1)", "rgba(255, 255, 255, 1)"], "rgba(97, 92, 132, 1)", '4px'])
 
 let PedroGRANDE = new Pessoa(`PedroGRANDE`, 1275, `Ônibus é um lego`)
-    let PedroGRANDE1 = new Pessoa(`PedroGRANDE`, [9, 1083700, 1], `"Fuma meteoro e sai nebulosas`, `Planet`, ["Galaxy Collapse - Kurokotei", "..]/Audios/GalaxyCollapse.mp3"], [["rgba(166, 0, 255, 0.808)", "rgba(250, 220, 255, 0.777)"], "rgba(115, 103, 173, 1)", undefined, "[210, 400, 210]-250-1"]) // galaxy collapse
+    let PedroGRANDE1 = new Pessoa(`PedroGRANDE`, [9, 1083700, 1], `"Fuma meteoro e sai nebulosas`, `Planet`, ["Galaxy Collapse - Kurokotei", "/CONTENT/FS-12/Audios/GalaxyCollapse.mp3"], [["rgba(166, 0, 255, 0.808)", "rgba(250, 220, 255, 0.777)"], "rgba(115, 103, 173, 1)", undefined, "[210, 400, 210]-250-1"]) // galaxy collapse
 
 let TARZAN = new Pessoa(`T A R Z A N`, [4, 1400, 7000], `êêêêêêêêê!!`, undefined, undefined, [["rgb(165, 210, 171)", "rgba(95, 255, 106, 1)"], `rgba(128, 173, 81, 0.83)`])
-    let TARZAN1 = new Pessoa(`T A R Z A N`, [4, 1125000, 5625000], `versão bostil da mãe natureza`, `Pai Amazônia`, ["Aegleseeker - Frums & Silentroom", "..]/Audios/Aegleseeker.mp3"], [["rgb(165, 210, 171)", "rgb(212, 255, 95)"], "rgba(117, 150, 105, 0.83)", undefined, "[90, 60, 90]-240-1"]) // aegleseeker
+    let TARZAN1 = new Pessoa(`T A R Z A N`, [4, 1125000, 5625000], `versão bostil da mãe natureza`, `Pai Amazônia`, ["Aegleseeker - Frums & Silentroom", "/CONTENT/FS-12/Audios/Aegleseeker.mp3"], [["rgb(165, 210, 171)", "rgb(212, 255, 95)"], "rgba(117, 150, 105, 0.83)", undefined, "[90, 60, 90]-240-1"]) // aegleseeker
 
 let Arlan = new Pessoa(`Arlan`, [2, 1500, 15000], `hey gays- guys, para isso aí`)
     let Arlan1 = new Pessoa(`Arlan`, 52500, `me zoaram o suficiente já...`, `MoniDOR`, undefined, [["rgba(82, 94, 96, 1)", "rgba(139, 184, 193, 1)", "rgba(189, 219, 234, 1)"], "rgba(133, 153, 163, 1)"])
@@ -464,17 +464,17 @@ let Rafael = new Pessoa(`Rafael`, 1665, `Estou vendo gente morta!!`)
     let Rafael1 = new Pessoa(`Rafael`, [4, 66600, 999000], `'Meu segundO empRego, enTeudEu?'`, `NECROMANTE`, undefined, [["rgba(181, 45, 255, 1)", "rgba(85, 255, 0, 1)", "rgba(0, 255, 157, 1)"], "rgba(224, 255, 243, 1)"])
 
 let Hebert = new Pessoa(`Hebert`, 2000, `ok, é A né? justifique então, faça isso para as outras 14`)
-    let Hebert1 = new Pessoa(`Hebert`, 240000, `e essa placa tectõnica... um pouquinho para a esqueda. Perfeito!`, `Cartógrafo do caos`, ["Final blenderman appeared - Camellia", "..]/Audios/FinalBlendermanAppeared.mp3"], [["rgba(255, 163, 15, 1)", "rgba(216, 95, 95, 1)"], "rgba(249, 246, 235, 1)", '8px', "[350, 400, 350]-200-2"]) //final blenderman appeared
-    let Hebert2 = new Pessoa(`Hebert`, 40002000, `O deus HISTÓRICO que carrega toda a GEOGRAFIA do planeta Terra`, `Atlas`,  ["Lament Rain - DDDice & Ashrount", "..]/Audios/LamentRain.mp3 "], [["rgb(255, 150, 150)", "rgba(169, 131, 88, 1)"], "rgba(99, 20, 255, 0)", undefined, "[380, 310, 380]-110-2"]) // lament rain
+    let Hebert1 = new Pessoa(`Hebert`, 240000, `e essa placa tectõnica... um pouquinho para a esqueda. Perfeito!`, `Cartógrafo do caos`, ["Final blenderman appeared - Camellia", "/CONTENT/FS-12/Audios/FinalBlendermanAppeared.mp3"], [["rgba(255, 163, 15, 1)", "rgba(216, 95, 95, 1)"], "rgba(249, 246, 235, 1)", '8px', "[350, 400, 350]-200-2"]) //final blenderman appeared
+    let Hebert2 = new Pessoa(`Hebert`, 40002000, `O deus HISTÓRICO que carrega toda a GEOGRAFIA do planeta Terra`, `Atlas`,  ["Lament Rain - DDDice & Ashrount", "/CONTENT/FS-12/Audios/LamentRain.mp3 "], [["rgb(255, 150, 150)", "rgba(169, 131, 88, 1)"], "rgba(99, 20, 255, 0)", undefined, "[380, 310, 380]-110-2"]) // lament rain
 
 let Alcides = new Pessoa(`Alcides`, 3000, `sua praga é dilema, premissa e profecia`)
-    let Alcides1 = new Pessoa(`Alcides`, 600000, `fabricando o canetão perfeito...`, `Alquimista Profano`, ["Dimnesion - Creo", "..]/Audios/Dimension.mp3"], [["rgba(83, 78, 90, 1)", "rgba(94, 82, 111, 1)", "rgba(130, 124, 146, 1)"], "rgba(190, 176, 196, 1)", undefined, "[200, 240, 300, 200]-50-3"]) //dimension
+    let Alcides1 = new Pessoa(`Alcides`, 600000, `fabricando o canetão perfeito...`, `Alquimista Profano`, ["Dimnesion - Creo", "/CONTENT/FS-12/Audios/Dimension.mp3"], [["rgba(83, 78, 90, 1)", "rgba(94, 82, 111, 1)", "rgba(130, 124, 146, 1)"], "rgba(190, 176, 196, 1)", undefined, "[200, 240, 300, 200]-50-3"]) //dimension
 
 let Gigante = new Pessoa(`Gigante`, 4000, `o pequenot- gigante destruidor de cidades`, undefined, undefined, [["rgb(206, 209, 134)", "rgba(231, 255, 133, 1)", "rgba(255, 255, 229, 1)"], "rgba(96, 97, 76, 1)", '4px'])
     let Gigante1 = new Pessoa(`Gigante`, 80000000, ``, `Galaxy`, undefined, [["rgb(104, 132, 246)", "rgb(145, 72, 255)"], "rgba(226, 229, 255, 1)", undefined, "[230, 200, 230]-200-1"])
 
 let QueroQuero = new Pessoa(`Quero-Quero`, [4, 5000, 80000], `poucos se atrevem mexer com ele`, undefined, undefined, [["rgba(0, 0, 0, 1)", "rgba(38, 32, 28, 1)", "rgba(210, 125, 86, 1)"], "rgba(225, 209, 199, 1)", '4px'])
-    let QueroQuero1 = new Pessoa(`Quero-Quero`, 5000000, ``, `Phoenigarasu`, ["INVERSION - tn.shi", "..]/Audios/Inversion.mp3"], [["rgba(255, 59, 25, 1)", "rgba(255, 189, 102, 1)"], "rgba(254, 220, 160, 1)", undefined, "[360, 380, 360, 320, 360]-250-.4"])
+    let QueroQuero1 = new Pessoa(`Quero-Quero`, 5000000, ``, `Phoenigarasu`, ["INVERSION - tn.shi", "/CONTENT/FS-12/Audios/Inversion.mp3"], [["rgba(255, 59, 25, 1)", "rgba(255, 189, 102, 1)"], "rgba(254, 220, 160, 1)", undefined, "[360, 380, 360, 320, 360]-250-.4"])
 
 let PomboGordo = new Pessoa(`PomboGordo`, [4, 27500, 687500], `é um pombo, é gordo, é um pombo gordo`, undefined, undefined, [["rgba(173, 173, 173, 1)", "rgba(191, 191, 191, 1)"], "rgba(138, 138, 138, 1)"])
     let PomboGordo1 = new Pessoa(`PomboGordo`, [9, 302500000, 605000000], ``, `Coosmos`,``, [["rgb(174, 175, 184)", "rgba(189, 202, 186, 1)", "rgba(216, 219, 243, 1)"], "rgba(163, 174, 169, 1)", "3px", "[180]-20-1"])
@@ -497,7 +497,7 @@ document.querySelector(`#audio-list`).innerHTML = Object.entries(Pessoa.audio).r
 let blockList = [];
 let sellQuantity = 1; 
 let pulsePoint = 1; let secPulsePoint = 1;
-let displayedElement; let displayedColElement; let inventoryDisplay = false; let collectionDisplay = false; let elementClick;
+let displayedElement; let displayedColElement; let inventoryDisplay = false; let collectionDisplay = false; let havanDisplay = false; let elementClick;
 let picked; let active = false;
 let luck = 1; let biome = 0; let speed = 1; let fortune = 0; fortuneCount = 10;
 let appliedColor = []; let appliedSat = 150; duration = 10
@@ -680,12 +680,17 @@ document.querySelector(`#collection-dropdown`).addEventListener(`click`, () => {
         })
         return false
     }
-     gsap.to(`#collection-content, #col-painels`, {
+    gsap.to(`#collection-content, #col-painels`, {
         x: 0,
         duration: 0.2,
         ease: `power2.out`
     })
     collectionDisplay = false;
+})
+document.querySelector(`#havan-btn`).addEventListener(`click`, () => {
+    if(!havanDisplay){
+        return false
+    }
 })
 document.addEventListener(`mousemove`, (e) => {
     elementClick = document.elementFromPoint(e.clientX, e.clientY)
@@ -813,10 +818,9 @@ function centerUpdate(){
     `   
     selected = Pessoa.values[Pessoa.values.findIndex((ele) => ele.acronym === equipped)]
 
-    luck = 10000
+    luck = 1000
     speed = 1;
     fortune = 0
-    biome = 8;
     if(!levelBlock) luck += Number((Math.log(level) / Math.log(100)).toFixed(2))
     if(equipped) if(selected.boost[1] === 0) luck += Number(selected.boost[0]); luck = luck.toFixed(2)
     if(equipped) if(selected.boost[1] === 1) speed += Number(selected.boost[0]);

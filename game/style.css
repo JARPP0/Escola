@@ -470,13 +470,13 @@ body{
     font-size: 0.6em;
 }
 #center-fort{
-    transform: translateY(calc(85px));
+    transform: translateY(calc(50vh - 115px));
     color: rgb(0, 255, 76);
     font-size: 0.6em;
 }
 #roll{
     position: relative !important;
-    transform: translateY(75px);
+    transform: translateY(calc(75px));
     z-index: 1;
 }
 
@@ -771,10 +771,45 @@ body{
     font-size: 0.7em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-body{
-    background-color: 'red'
+
+/* HAVAN */
+
+#havan-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    background: linear-gradient(0deg, hsl(10, 100%, 81%), hsl(0, 71%, 75%));
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translate(calc(50vw + 150px), calc(100vh - 108px));
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    &:hover{
+        background: linear-gradient(0deg, hsl(10, 100%, 91%), hsl(0, 71%, 85%));
+    }
 }
 
+#havan{
+    background-color: #ffefe5;
+    border: 2px dashed rgb(255, 225, 207);
+    width: 500px;
+    height: 400px;
+    transform: translateX(calc(50vw - 250px));
+    position: absolute;
+    z-index: 4;
+}
+#blurback{
+    position: absolute;
+    background-color: transparent;
+    transform: translateY(-110px);
+    backdrop-filter: blur(1px);
+    background-color: rgba(1, 1, 1, 0.2);
+    pointer-events: none;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
 /* --- - - COLLECTION - - --- */
 
 #collection{
@@ -1043,7 +1078,7 @@ body{
     #collection-content{height: 480px;}
 }
 
-/* COLLECTION PAENELS */
+/* COLLECTION PAINELS */
 
 #col-painels{
     position: absolute;
@@ -1068,6 +1103,7 @@ body{
     width: 1px;
     transform: translateY(22px);
 }
+
 /* villain virus cyberfantasia yago, trash clan gnose  pombo gordo coosfera universseshifter
 
 */
