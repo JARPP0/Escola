@@ -3,13 +3,13 @@ class Shop {
 
     constructor(nome, attributes, requirements, price){
         Shop.values.push(this)
-
         this.name = nome
         this.attributes = attributes
         requirements = Object.entries(requirements).reduce((acc, [key, val]) => {
-            acc.push([Pessoa.values[Pessoa.values.findIndex((ele) => ele.name === key)], val])
+            acc.push([Pessoa.values[Pessoa.values.findIndex((ele) => ele.acronym === key)], val])
             return acc
         }, [])
+        console.log(requirements)
         this.requirements = requirements
         this.requirements = this.requirements.map((ele) => {
             return [...ele, 0]
@@ -366,6 +366,8 @@ let Yas = new Pessoa(`YAS`, 30, ``)
 let Vinicius = new Pessoa(`Vinícius`, [2, 25, 125], `Gosta de Strôgonobòlónofóff`)
     let Vinicius1 = new Pessoa(`Vinícius`, [4, 386100, 1], `Maldito Talento`, `Gnose`, ["Censored!! - t+pazolite", "../Audios/Censored.mp3"], [["rgba(19, 255, 15, 1)", "rgba(20, 255, 220, 1)", "rgba(255, 56, 195, 1)"], "rgba(95, 92, 255, 1)", undefined, "[90, 160, 300, 90]-400-2"]) // censored!!
 
+let Samira = new Pessoa(`Samira`, 40, `Ama Stray Kids`)
+
 let Lucas = new Pessoa(`Lucas`, 45, `Assistindo rolar a bola, tomando coca-cola vindo da sacola`)
     let Lucas1 = new Pessoa(`Lucas`, [3, 3600, 10800], `LuCR7 atira no gol, do outro gol`, `CR7`, undefined, [["rgb(26, 132, 49)", "rgba(113, 202, 99, 1)", "rgba(85, 255, 0, 1)"], "rgba(80, 155, 99, 1)", '3px'])
 
@@ -397,7 +399,7 @@ let Miguel = new Pessoa(`Miguel`, 65, `se falé baixu`)
     let Miguel1 = new Pessoa(`Miguel`, 455000, `exército super-militar nível maior que bope`, `Bonde da makita`, ["Os Caras tão na Maldade - Yami", "../Audios/OsCarasTãoNaMaldade.mp3"], [["rgba(173, 194, 255, 1)", "rgba(112, 51, 255, 1)"], "rgba(74, 62, 122, 1)", '3px', "[260, 200, 260]-300-2"]) // Os Caras Estão na Maldade
 
 let Guilherme = new Pessoa(`Guilherme`, 69, `'Arco de vilão da torre de cartas destruída'`)
-    let Guilherme1 = new Pessoa(`Guilherme`, 552, `Despertada a sua braveza, pronto para aniquilar`, `NegãoMan`, undefined,  [["rgb(0, 0, 0)", "rgba(10, 7, 5, 1)", "rgba(74, 71, 48, 1)"], "rgba(165, 141, 80, 1)"])
+  //  let Guilherme1 = new Pessoa(`Guilherme`, 552, `Despertada a sua braveza, pronto para aniquilar`, `NegãoMan`, undefined,  [["rgb(0, 0, 0)", "rgba(10, 7, 5, 1)", "rgba(74, 71, 48, 1)"], "rgba(165, 141, 80, 1)"])
     let Guilherme2 = new Pessoa(`Guilherme`, 15333318, `Dê um [[SHOT!!!]] e V(OT)E N0W [[DuArT3 參考]] PRESID{io}ENTE`, `Presid(io)ente`, undefined,  [["rgba(57, 57, 57, 1)", "rgba(10, 7, 5, 1)", "rgba(0, 0, 0, 1)"], "rgba(149, 136, 128, 1)"])
 
 let Davi = new Pessoa(`Davi`, 70, `cuidado que ele vem lutando caipoeira`)
@@ -476,34 +478,35 @@ let PomboGordo = new Pessoa(`PomboGordo`, [4, 27500, 687500], `é um pombo, é g
 let TrinitédesGnomes = new Pessoa(`Trinité des Gnomes`, [4, 60000, 1800000], `A GRANDIOSA nação (Arthur, Pedro, Gigante)`, undefined, undefined,  [["rgb(32, 173, 79)", "rgba(51, 215, 204, 1)", "rgba(92, 247, 255, 1)"], "rgba(101, 66, 240, 1)"])
     let TrinitédesGnomes1 = new Pessoa(`Trinité des Gnomes`, [4, 12000000, 24000000], ``, `Quantum`, ``, [["rgb(102, 102, 102)", "rgb(255, 55, 55)"], "rgb(255, 144, 144)", undefined, "[355, 350, 355]-250-1"])
 
-let Retroescavadeira = new Pessoa(`Retro Escavadeira`, 123321, `OLHA!, é uma R E T R O  E S C A V A D E I R A`, undefined, undefined, [["rgb(255, 144, 26)", "rgba(255, 242, 0, 1)", "rgba(255, 242, 0, 1)"], "rgba(255, 181, 107, 1)", '4px', "[40]-300-1"])
+let RetroEscavadeira = new Pessoa(`RetroEscavadeira`, 123321, `OLHA!, é uma R E T R O  E S C A V A D E I R A`, undefined, undefined, [["rgb(255, 144, 26)", "rgba(255, 242, 0, 1)", "rgba(255, 242, 0, 1)"], "rgba(255, 181, 107, 1)", '4px', "[40]-300-1"])
 
 let Cdo = new Shop(`Cuzcuz assado`, [.5, 0, 0], 
-    {Paulo: 3}, 30
+    {plo: 3}, 30
 )
 let Pgi = new Shop(`Pulseira brotheagi`, [1, 0, 1.5],
-    {Arthur: 5, ArthurCorreia: 3, Pedro: 1, Paulo: 1, Marcos: 1,
-        Vinicius: 2, Guilherme: 2, Alison: 1, Yago: 1
+    {aur: 5, pro: 1, plo: 1, mos: 1, aon: 1, ygo: 1
     }
     , 150)
 let Mrm = new Shop(`Mechanical arm`, [10, 30, 3],
     {
-        Gibres: 10, Retroescavadeira: 3, Davi1: 1
+        ges: 10,
+        rra: 3,
+        duy: 1
     }, 5000
 )
 let Uom = new Shop(`UltrAtom`, [200, 400, 1],
     {
-        Gigante: 40,
-        Pedro2: 10,
-        ArthurCorreia2: 3,
-        TrinitédesGnomes1: 1,
+        gte: 40,
+        pge: 10,
+        aia1: 3,
+        tum: 1,
     }
 )
 let Aco = new Shop(`Amuleto animalesco`, [1000, 777, 5],
-    {QueroQuero1: 1, Rodobelo2: 1, PomboGordo: 1}
+    {qsu: 1, rwu: 1, pos: 1}
     , 800000)
 let Sal = new Shop(`Shadow essence`, [1500, 500, 12],
-    {Matheus1: 1, Thales1: 1}
+    {mce: 1, tnt: 1}, 1000000
 )
 document.querySelector(`#audio-list`).innerHTML = Object.entries(Pessoa.audio).reduce((acc, [id, src]) => {
     acc.push(`<audio id="${id}" src="${src}" loop></audio>`)
@@ -562,6 +565,11 @@ centerUpdate()
 updateShop()
 
 console.log(Pessoa.values)
+document.querySelector(`body`).ondblclick = () => {
+    baseLuck += 10 * baseLuck
+    baseSpeed = 99999
+    centerUpdate()
+}
 document.addEventListener(`DOMContentLoaded`, () => {
     document.querySelector(`#roll`).addEventListener(`click`, () => {
         if(rolling){ return }
@@ -1341,6 +1349,7 @@ function updateShop(){
     document.querySelector(`#havan`).innerHTML = Shop.values.reduce((acc, ele) => {
         acc += `<b>${ele.name} || BOOSTS:  L: ${ele.luckAttr} | F: ${ele.fortuneAttr} | S: ${ele.speedAttr}</b><br>`
         ele.requirements.forEach((el) => {
+            console.log(ele)
             acc += `<br><div class="shop-ele"><div>${(el[0].isMutation ? el[0].mutation : el[0].name).toUpperCase()} ${el[2]}/${el[1]}: </div><button class="deposit-btn" onclick="Shop.deposit('${ele.name}', '${el[0].name}')">Depositar</button></div>`
         })
         acc += `<br> <button onclick="afford('${ele.name}', ${ele.price})" class="buy-btn ${(ele.affordable && ele.price <= Pessoa.money) || ele.afforded ? `enabled`: ``}">BUY ${ele.price}R$</button> <button onclick="enable('${ele.name}')" class="buy-btn ${ele.afforded ? `enabled`: ``}">${ele.enabled ? `ENABLED`: `DISABLED`}</button><br> <hr>`

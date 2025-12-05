@@ -433,6 +433,7 @@ body{
     align-items: center;
     width: 100%;
     transform: translateY(250px);
+    user-select: none;
     & *{
         position: absolute;
         z-index: -1;
