@@ -176,7 +176,7 @@ body{
         border: 1px solid hsla(14, 100%, 50%, 0.233);
     }
     & span:hover{
-        background: linear-gradient(20deg, hsla(9, 100%, 89%, 0.69), hsla(4, 100%, 83%, 0));
+        background: linear-gradient(180deg, hsl(22, 72%, 82%),rgb(255, 221, 195));
     }
     & span:active{
         background: linear-gradient(20deg, hsl(24, 100%, 90%), hsl(17, 100%, 86%));
@@ -204,7 +204,7 @@ body{
         border: 1px solid hsla(14, 100%, 50%, 0.233);
     }
     & span:hover{
-        background: linear-gradient(20deg, hsla(9, 100%, 89%, 0.69), hsla(4, 100%, 83%, 0));
+        background: linear-gradient(180deg, hsl(22, 72%, 82%),rgb(255, 221, 195));
     }
     & span:active{
         background: linear-gradient(20deg, hsl(24, 100%, 90%), hsl(17, 100%, 86%));
@@ -438,13 +438,17 @@ body{
         z-index: -1;
     }
 }
+#name-svg{
+    transform: translateY(calc(-210px + 30vh));
+}
 #center-name{
     font-size: 2em;
     transform: translateY(-80px);
 }
 #center-rariety{
     font-size: .8em;
-    transform: translateY(-50px);
+    transform: translateY(50px);
+    top: calc(30vh - 190px);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     & *{
         position: relative;
@@ -452,7 +456,8 @@ body{
 }
 #center-desc{
     font-size: .8em;
-    transform: translateY(-30px);
+    transform: translateY(calc(-240px + 30vh));
+    text-align: center;
     & *{
         position: relative;
     }
@@ -460,9 +465,10 @@ body{
 #center-break{
     font-size: .6em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(calc(-210px + 30vh))
 }
 #center-new{
-    transform: translateY(-105px);
+    transform: translateY(calc(-315px + 30vh));
     color: rgb(0, 255, 76);
     font-weight: bolder;
     font-style: italic;
@@ -470,17 +476,25 @@ body{
     font-size: 0.6em;
 }
 #center-fort{
-    transform: translateY(calc(50vh - 115px));
+    transform: translateY(calc(-185px + 30vh));
     color: rgb(0, 255, 76);
     font-size: 0.6em;
 }
 #roll{
     position: relative !important;
-    transform: translateY(calc(75px));
+    transform: translateY(calc(-155px + 30vh));
     z-index: 1;
 }
 
 /* CEN-NAME */
+@font-face{ font-family: "Aktura"; src: url("../Fonts/Aktura-Regular.ttf") format("truetype")}
+.tnt{
+    font-family: "Aktura";
+}
+@font-face{ font-family: "Khian Shantang"; src: url("../Fonts/Khian-shantang.ttf") format("truetype")}
+.mce{
+    font-family: "Khian Shantang";
+}
 @font-face{ font-family: "Love Light"; src: url("../Fonts/LoveLight-Regular.ttf") format("opentype")}
 .aim{
     font-family: "Love Light";
@@ -503,12 +517,16 @@ body{
     font-weight: 700;
 }
 @font-face{ font-family: "WDXL Lubrifont SC"; src: url("../Fonts/WDXLLubrifontSC-Regular.ttf") format("truetype")}
-.gxy, .gte, .hos{
+.gxy, .gte1, .hos{
     font-family: "WDXL Lubrifont SC", sans-serif;
 }
 @font-face{ font-family: "Dela Gothic One"; src: url("../Fonts/DelaGothicOne-Regular.ttf") format("truetype")}
 .tum, .tes1{
     font-family: "Dela Gothic One", sans-serif;
+}
+@font-face{ font-family: "Federo"; src: url("../Fonts/Federo-Regular.ttf") format("truetype")}
+.gte{
+    font-family: "Federo", system-ui;
 }
 @font-face{ font-family: "Ceviche One"; src: url("../Fonts/CevicheOne-Regular.ttf") format("truetype")}
 .aia1{
@@ -748,14 +766,14 @@ body{
 #level-bar-back{
     content: "";
     position: relative;
-    top: calc(100vh - 330px);
+    top: calc(100vh - 320px);
     width: 300px;
     height: 10px;
     border-radius: 10px;
     background: linear-gradient(0deg, rgb(32, 57, 27), rgb(75, 96, 75));
 }
 #level-number{
-    transform: translateY(calc(100vh - 415px));
+    transform: translateY(calc(100vh - 390px));
     color: green;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
@@ -767,7 +785,7 @@ body{
     }  
 }
 #boost-list-info{
-    transform: translateY(-250px);
+    transform: translateY(-270px);
     font-size: 0.7em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -779,6 +797,7 @@ body{
     justify-content: center;
     display: flex;
     color: white;
+    user-select: none;
     background: linear-gradient(0deg, hsl(10, 100%, 81%), hsl(0, 71%, 75%));
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transform: translate(calc(50vw + 150px), calc(100vh - 108px));
@@ -789,26 +808,122 @@ body{
         background: linear-gradient(0deg, hsl(10, 100%, 91%), hsl(0, 71%, 85%));
     }
 }
-
-#havan{
-    background-color: #ffefe5;
-    border: 2px dashed rgb(255, 225, 207);
-    width: 500px;
-    height: 400px;
-    transform: translateX(calc(50vw - 250px));
-    position: absolute;
+#havan-wrap{
     z-index: 4;
+    width: 525px;
+    height: 406px;
+    overflow-y: auto;
+    transform: translate(2px, 2px);
+    overflow-x: hidden;
+    position: absolute;
+    &::-webkit-scrollbar{
+        background-color: hsla(343, 31%, 50%, 0.1); 
+        border-radius: 22px;
+        width: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: hsl(10, 31%, 55%);
+        border-radius: 100px;
+    }
+    &::-webkit-scrollbar-thumb:hover{
+        background: linear-gradient(20deg, hsl(0, 71%, 75%), hsl(25, 64%, 68%));
+        border-radius: 100px;
+    }
+    &::-webkit-scrollbar-thumb:active{
+        background: linear-gradient(20deg, hsl(345, 71%, 75%), hsl(0, 100%, 82%))
+    }
 }
+#border-wrap{
+    transform: translateX(calc(50vw - 258px));
+    background-color: rgb(255, 193, 193);
+    z-index: 6;
+    position: absolute;
+    width: 514px;
+    height: 410px;
+    box-shadow: 0 0 0 2px rgb(173, 100, 100),
+    0 0 5px 4px rgba(0, 0, 0, 0.116);
+    display: none;
+}
+#havan{
+    background: linear-gradient(180deg, rgb(255, 157, 118), rgb(210, 96, 115));
+    padding: 5px 5px;
+    width: 500px;
+    height: auto;
+    z-index: 4;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.7em;
+    hr{
+        border: none;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.109);
+        color: red;
+    }
+}
+
 #blurback{
     position: absolute;
     background-color: transparent;
-    transform: translateY(-110px);
+    transform: translateY(-111.81px);
     backdrop-filter: blur(1px);
     background-color: rgba(1, 1, 1, 0.2);
-    pointer-events: none;
     z-index: 3;
     width: 100%;
-    height: 100%;
+    height: 140%;
+    display: none;
+}
+.shop-ele{
+    width: 100%;
+    height: 10px;
+    & *{
+        position: absolute;
+        display: inline-block
+    }
+    & > :nth-child(2){
+        transform: translate(420px, -7px);
+        position: relative;
+        top: 3px;
+        margin: 6px;
+        color: white;
+        text-shadow: 0px 0px 8px hsl(10, 99%, 65%);
+        background: linear-gradient(0deg, rgb(246, 169, 169), rgb(255, 190, 174));
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+        height: 20px;
+        user-select: none;
+    }
+    & > :nth-child(2):hover{
+        cursor: pointer;
+        color: rgb(200, 111, 126);
+        background: linear-gradient(180deg, rgb(255, 216, 210), rgb(255, 207, 218));
+    }
+    & > :nth-child(2):active{
+        cursor: pointer;
+        color: rgb(231, 141, 156);
+        background: white;
+    }
+}
+.buy-btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgba(255, 195, 181, 0.791);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.85em;
+    color: rgb(241, 74, 85);
+    border: none;
+    user-select: none;
+}
+.enabled{
+    cursor: pointer;
+    font-weight: 600;
+    background: linear-gradient(0deg, rgb(245, 255, 214), rgb(231, 255, 157));
+    color: rgb(187, 85, 109);
+    &:hover{
+        color: rgb(254, 118, 150);
+    }
+    &:active{
+        background: white;
+    }
 }
 /* --- - - COLLECTION - - --- */
 
@@ -817,7 +932,7 @@ body{
     right: 0;
     z-index: 2;
     width: 0px;
-    transform: translate(-320px);
+    transform: translate(-323px);
 
 }
 #collection-dropdown{
@@ -825,7 +940,7 @@ body{
     width: 100px;
     display: flex;
     justify-content: center;
-    transform: translateX(320px);
+    transform: translateX(323px);
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
@@ -1103,6 +1218,7 @@ body{
     width: 1px;
     transform: translateY(22px);
 }
+
 
 /* villain virus cyberfantasia yago, trash clan gnose  pombo gordo coosfera universseshifter
 
