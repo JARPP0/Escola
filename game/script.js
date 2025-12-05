@@ -478,12 +478,33 @@ let TrinitédesGnomes = new Pessoa(`Trinité des Gnomes`, [4, 60000, 1800000], `
 
 let Retroescavadeira = new Pessoa(`Retro Escavadeira`, 123321, `OLHA!, é uma R E T R O  E S C A V A D E I R A`, undefined, undefined, [["rgb(255, 144, 26)", "rgba(255, 242, 0, 1)", "rgba(255, 242, 0, 1)"], "rgba(255, 181, 107, 1)", '4px', "[40]-300-1"])
 
-let Teste = new Shop(`PATO`, [1.5, 1.5, 1.5],
-    {Arthur: 1}
+let Cdo = new Shop(`Cuzcuz assado`, [.5, 0, 0], 
+    {Paulo: 3}, 30
+)
+let Pgi = new Shop(`Pulseira brotheagi`, [1, 0, 1.5],
+    {Arthur: 5, ArthurCorreia: 3, Pedro: 1, Paulo: 1, Marcos: 1,
+        Vinicius: 2, Guilherme: 2, Alison: 1, Yago: 1
+    }
     , 150)
-let Teste1 = new Shop(`PAaTdO`, [1.5, 1.5, 1.5],
-    {Marcella: 2}
-    , 150)
+let Mrm = new Shop(`Mechanical arm`, [10, 30, 3],
+    {
+        Gibres: 10, Retroescavadeira: 3, Davi1: 1
+    }, 5000
+)
+let Uom = new Shop(`UltrAtom`, [200, 400, 1],
+    {
+        Gigante: 40,
+        Pedro2: 10,
+        ArthurCorreia2: 3,
+        TrinitédesGnomes1: 1,
+    }
+)
+let Aco = new Shop(`Amuleto animalesco`, [1000, 777, 5],
+    {QueroQuero1: 1, Rodobelo2: 1, PomboGordo: 1}
+    , 800000)
+let Sal = new Shop(`Shadow essence`, [1500, 500, 12],
+    {Matheus1: 1, Thales1: 1}
+)
 document.querySelector(`#audio-list`).innerHTML = Object.entries(Pessoa.audio).reduce((acc, [id, src]) => {
     acc.push(`<audio id="${id}" src="${src}" loop></audio>`)
     return acc
